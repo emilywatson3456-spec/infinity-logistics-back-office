@@ -17,7 +17,7 @@
             color: white;
             text-shadow: 0 0 10px rgba(0,0,0,0.7);
         }
-        .service-card:hover {
+        .service-card:hover, .blog-card:hover {
             transform: translateY(-5px);
             transition: 0.3s;
             box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
@@ -31,11 +31,30 @@
             font-weight:700;
             margin-bottom:20px;
         }
+        .navbar-brand { font-weight: 700; }
     </style>
 </head>
 <body>
 
-<!-- SECTION 1: HERO SECTION -->
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Infinity Back Office</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- SECTION 1: HERO -->
 <header class="hero px-5">
     <div>
         <h1 class="display-4 fw-bold">Logistics Back-Office Solutions</h1>
@@ -44,27 +63,13 @@
     </div>
 </header>
 
-<!-- SECTION 2: ABOUT US -->
+<!-- SECTION 2: ABOUT -->
 <section class="container py-5" id="about">
     <h2 class="section-title text-center">Who We Are</h2>
     <p class="text-center mb-4">
         Infinity Back Office provides expert logistics administrative support including documentation, freight billing, settlement audits, and customer communication. 
-        Our goal is simple — reduce your overhead, speed up workflows, and let you scale without hiring more staff.
+        Our mission: reduce your overhead, speed up workflows, and let you scale without hiring more staff.
     </p>
-    <div class="row text-center">
-        <div class="col-md-4">
-            <h4>25+ Years Experience</h4>
-            <p>Trusted by freight forwarders, 3PLs, brokers & trucking companies worldwide.</p>
-        </div>
-        <div class="col-md-4">
-            <h4>Global Support</h4>
-            <p>24/7 back-office teams who ensure nothing falls through the cracks.</p>
-        </div>
-        <div class="col-md-4">
-            <h4>Process Driven</h4>
-            <p>We follow structured workflows for billing, paperwork, compliance & communication.</p>
-        </div>
-    </div>
 </section>
 
 <!-- SECTION 3: SERVICES -->
@@ -73,55 +78,68 @@
         <h2 class="section-title text-center">Our Back-Office Services</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4">
-                <div class="card p-4 service-card">
-                    <h5>Freight Billing & Audit</h5>
-                    <p>We verify documents, match invoices, and reduce billing disputes for faster payments.</p>
-                </div>
+                <div class="card p-4 service-card"><h5>Freight Billing & Audit</h5><p>Faster invoicing & reduced disputes.</p></div>
             </div>
             <div class="col-md-4">
-                <div class="card p-4 service-card">
-                    <h5>Documentation Support</h5>
-                    <p>BOL, POD, Customs forms, Certificates & shipment documents handled accurately.</p>
-                </div>
+                <div class="card p-4 service-card"><h5>Documentation Support</h5><p>BOL, POD, Customs & Certificates handled accurately.</p></div>
             </div>
             <div class="col-md-4">
-                <div class="card p-4 service-card">
-                    <h5>Carrier & Customer Communication</h5>
-                    <p>We track loads, provide status updates, handle exceptions & settle issues.</p>
-                </div>
+                <div class="card p-4 service-card"><h5>Customer & Carrier Support</h5><p>Status updates, communication & issue resolution.</p></div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHY CHOOSE US -->
-<section class="container py-5" id="advantages">
-    <h2 class="section-title text-center">Case Studies and Blogs</h2>
-    <div class="row mt-4">
-        <div class="col-md-6">
-            <ul class="list-group">
+<!-- SECTION 4: BLOG SECTION -->
+<section class="container py-5" id="blog">
+    <h2 class="section-title text-center">Latest Blog Insights</h2>
 
-<a href="https://emilywatson897494.substack.com/p/the-administrative-engine-why-the">Logistics Back Office Services</a>
-<a href="https://blog.naver.com/logisticsbackoffice/224147083118">Back Office Services for Freight</a>
-<a href="https://www.articletrunk.com/the-profit-leak-why-your-trucking-companys-biggest-expense-isnt-fuel/">Back Office Services for Trucking Companies</a>
-            </ul>
+    <div class="row g-4 mt-3">
+
+        <!-- BLOG 1 -->
+        <div class="col-md-4">
+            <a href="https://emilywatson897494.substack.com/p/the-administrative-engine-why-the" target="_blank" class="text-decoration-none text-dark">
+                <div class="card blog-card p-3">
+                    <h5>Logistics Back Office Services</h5>
+                    <p class="mb-2">A deep look into how back-office teams drive operational performance.</p>
+                    <span class="text-primary">Read More →</span>
+                </div>
+            </a>
         </div>
-        <div class="col-md-6">
-            <img src="https://images.unsplash.com/photo-1586528116312-b264a746d331?q=80&w=1000" class="img-fluid rounded">
+
+        <!-- BLOG 2 -->
+        <div class="col-md-4">
+            <a href="https://blog.naver.com/logisticsbackoffice/224147083118" target="_blank" class="text-decoration-none text-dark">
+                <div class="card blog-card p-3">
+                    <h5>Back Office Services for Freight</h5>
+                    <p class="mb-2">Understanding freight support workflows & compliance needs.</p>
+                    <span class="text-primary">Read More →</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- BLOG 3 -->
+        <div class="col-md-4">
+            <a href="https://www.articletrunk.com/the-profit-leak-why-your-trucking-companys-biggest-expense-isnt-fuel/" target="_blank" class="text-decoration-none text-dark">
+                <div class="card blog-card p-3">
+                    <h5>Back Office for Trucking Companies</h5>
+                    <p class="mb-2">How trucking firms lose profit without strong admin systems.</p>
+                    <span class="text-primary">Read More →</span>
+                </div>
+            </a>
         </div>
     </div>
 </section>
 
-<!-- SECTION 5: CONTACT SECTION -->
+<!-- SECTION 5: CONTACT -->
 <section class="bg-dark text-white py-5" id="contact">
     <div class="container text-center">
         <h2 class="section-title">Get In Touch</h2>
         <p>Ready to streamline your operations? Contact our logistics back-office experts today.</p>
-        <a href="mailto:info@yourcompany.com" class="btn btn-primary mt-3">Email Us</a>
+        <a href="mailto:info@infinitylogistics.com" class="btn btn-primary mt-3">Email Us</a>
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer class="text-center">
     <p class="m-0">© 2026 Infinity Logistics Back Office — All Rights Reserved.</p>
 </footer>
