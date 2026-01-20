@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0"
+xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
 <title>Infinity Logistics Back Office Insights</title>
 <link>https://emilywatson3456-spec.github.io/infinity-logistics-back-office/</link>
-<description>Insights on logistics back-office and 3PL operations</description>
+<description>Logistics back-office, 3PL operations, billing, compliance & outsourcing insights</description>
+
+<atom:link href="https://emilywatson3456-spec.github.io/infinity-logistics-back-office/rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
 <title>Why Back-Office Services Are Essential for Modern 3PL Companies</title>
-<link>https://emilywatson3456-spec.github.io/infinity-logistics-back-office/</link>
-<description>How back-office services help 3PL companies scale efficiently.</description>
+<link>PASTE EXACT POST URL HERE</link>
+<guid isPermaLink="true">PASTE SAME POST URL HERE</guid>
+<description><![CDATA[
+Learn how 3PL companies use back-office services to scale operations, reduce costs, and improve accuracy.
+]]></description>
 <pubDate>Mon, 20 Jan 2026 10:00:00 GMT</pubDate>
 </item>
 
