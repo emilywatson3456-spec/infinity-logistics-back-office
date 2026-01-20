@@ -1,11 +1,9 @@
 # Why Are So Many Logistics Companies Still Scared to Outsource Their Back Office Work?
 
-Many logistics companies are still hesitant to outsource their back-office operations — even when they’re struggling with rising costs, staffing challenges, and tight margins.  
-At **Infinity Logistics Back Office**, we’ve seen firsthand how outsourcing can actually *strengthen* control, visibility, and efficiency — not weaken it.
+Many logistics companies are still hesitant to outsource their back-office operations, even when they’re struggling with rising costs, staffing challenges, and tight margins.  
+At **Infinity Logistics Back Office**, we’ve seen firsthand how outsourcing can actually *strengthen* control, visibility, and efficiency, not weaken it.
 
----
-
-## 🚛 The 4 Biggest Fears (and the Reality Behind Them)
+## The 4 Biggest Fears (and the Reality Behind Them)
 
 ### **1. “We’ll lose control of our operations.”**
 **Reality:** Modern outsourcing doesn’t mean handing over control.  
